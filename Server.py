@@ -17,14 +17,14 @@ class Server(object):
         self.socket_server.bind((ip_Server, port_Server))
         self.socket_server.listen(1)
         print ("Servidor escuchando en puerto " +str(port_Server)+ " del server " + str(ip_Server))
+        self.connectionSocket, self.adrss = self.socket_server.accept()
 
     def recive_data(self):
         """
             Recibe la información codificada (en minuscula)
             Return la información modificada (en mayuscula)
         """
-        connectionSocket, self.adrss = self.socket_server.accept()
-        sentence = connectionSocket.recv(1024)
+        sentence = self.connectionSocket.recv(1024)
         capitalizedSentence = sentence.decode().upper()
         return capitalizedSentence
 
@@ -33,13 +33,13 @@ class Server(object):
         """
             Enviará información modificada (en mayusculas)
         """
-        self.socket_server.send(data.encode())
+        self.connectionSocket.send(data.encode())
     
-    def close_socket(self, socket):
+    def close_socket(self):
         """
             Cerrará el socket abierto
         """
-        self.socket_server.close()
+        self.connectionSocket.close()
 
 
 if __name__ == '__main__':
@@ -52,4 +52,3 @@ if __name__ == '__main__':
         data = myServer.recive_data()
         myServer.send_data(data)
         myServer.close_socket()
-
