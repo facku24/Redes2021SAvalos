@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------
+							DEVOLUCION
+-------------------------------------------------------------------------
+NOMBRE: Avalos, Sebastian
+CALIFICACIÓN: 0.4 (No aprobado)
+Recordar: La calificación del laboratorio va de 0 (No Aprobado) a 1
+ (Aprobado). La calificación no es definitiva y puede modificarse a 
+ medida que el laboratorio sea mejorado.
+-------------------------------------------------------------------------
+							COMENTARIOS
+-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+							CODIFICACION (1 - Aprobado)
+-------------------------------------------------------------------------
+	* Muy buen estilo de condificación y de manejo de clases.
+	* Muy buen estilo de comentarios.
+	* A CORREGIR:
+	* Estructura del directorio. Se requiere que el mismo presente 
+	 la siguiente forma:
+	 /
+	 |_Lab1/
+	 |	  |_ servidor.py
+	 |	  |_ cliente.py
+	 |
+	 |_Lab2/
+	 |
+	 |_Lab3/
+	 .
+	 .
+	 Si bien es una observación, en este primer laboratorio no ha de
+	 ser tenido en cuenta como calificación. A futuro, de no presentar
+	 la forma correcta, significará una pérdida de puntos.
+	* Nombre de los archivos tal cual se especifican en el enunciado.
+
+-------------------------------------------------------------------------
+						FUNCIONAMIENTO (0.2 - No Aprobado)
+-------------------------------------------------------------------------
+* Si bien hay una buena implementación de código, el funcionamiento del mismo
+es incorrecto no cumpliendo con las especificaciones del enunciado. Se requiere
+una valiación y corrección del mismo a fin de poder dar una evaluación más com-
+pleta e integral del funcionamiento.
+
+-------------------------------------------------------------------------
+						ENTREGA (0 - No Aprobado)
+-------------------------------------------------------------------------
+* Debido a que el laboratorio no ha sido entregado en tiempo y en forma, por el
+momento la calificación es 0. Cuando el mismo sea entregado correctamente, la misma
+ha de cambiar. Sin embargo tener en cuenta que no ha de alcanzar el puntaje total
+de 1 puesto que ese valor es para la fecha estimada en primera instancia.
