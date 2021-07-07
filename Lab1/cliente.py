@@ -3,9 +3,6 @@ from socket import *
 class Client(object):
 
     def __init__(self,host,port):
-        """
-            Constructor de la clase Cliente.
-        """
         self.create_socket(host, port)
     
     def create_socket(self, host, port):
