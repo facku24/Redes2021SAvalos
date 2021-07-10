@@ -1,0 +1,4 @@
+[-->]On 2021-07-09 22:26:34.942463 got conecction from 127.0.0.1 on port 39896 with message hola
+[-->]On 2021-07-09 22:26:42.444678 got conecction from 127.0.0.1 on port 39896 with message list
+[-->]On 2021-07-09 22:26:51.131675 got conecction from 127.0.0.1 on port 39896 with message metadata constantes.py
+[-->]On 2021-07-09 22:27:17.203328 got conecction from 127.0.0.1 on port 39896 with message get constantes.py

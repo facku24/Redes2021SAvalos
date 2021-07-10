@@ -17,7 +17,7 @@ class Client(object):
         return response_recive
     
     def close_connection(self):
-        self.client.close()
+        self.client.shutdown(socket.SHUT_RDWR)
 
 #---------
 
@@ -27,13 +27,18 @@ while True:
     message = input("Send some data here -> ")
     client.send_request(message)
     print("Got response from server:\n")
-    print(client.recive_response())
-    
-"""
+    response = client.recive_response()
+    if message.split(' ')[0] == "get":
+        try:
+            with open (f"copy{message.split(' ')[1]}","wb") as recivedfile:
+                recivedfile.write(response.decode())
+                response = "Success received file from server"
+        
+        except IOError as error:
+            response = "Failed"
 
-client.sendall(send_message.encode()) #hasta aqui envio de mensaje
-#-----
-response = client.recv(1024).decode()
-print (int(response))
-client.close
-"""
+    print (response)
+    if response == "CONEXION CLOSED":
+        client.close_connection()
+        break
+

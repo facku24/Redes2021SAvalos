@@ -9,15 +9,15 @@ def list_files ():
 
 def get_files (filetxt):
     try:
-        fichero = open(filetxt)
-        lines = fichero.readlines()
-        response = "".join(lines)
+        with open ("filetxt","rb") as filetosend:
+            lines = filetosend.readlines()
+            response = "".join(lines)
 	
     except IOError as error:
         response = "File not found"
 	
     finally:
-        fichero.close()
+        filetosend.close()
         return response
 
 def metadata_files(filetxt):
