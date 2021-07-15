@@ -2,3 +2,48 @@
 [-->]On 2021-07-09 22:26:42.444678 got conecction from 127.0.0.1 on port 39896 with message list
 [-->]On 2021-07-09 22:26:51.131675 got conecction from 127.0.0.1 on port 39896 with message metadata constantes.py
 [-->]On 2021-07-09 22:27:17.203328 got conecction from 127.0.0.1 on port 39896 with message get constantes.py
+[-->]On 2021-07-12 20:31:32.216142 got conecction from 127.0.0.1 on port 38490 with message hola
+[-->]On 2021-07-12 20:31:34.623436 got conecction from 127.0.0.1 on port 38490 with message list
+[-->]On 2021-07-12 20:31:47.792548 got conecction from 127.0.0.1 on port 38490 with message GET constantes.py
+[-->]On 2021-07-12 20:31:54.795891 got conecction from 127.0.0.1 on port 38490 with message get constantes.py
+[-->]On 2021-07-12 20:36:45.566416 got conecction from 127.0.0.1 on port 38538 with message hola
+[-->]On 2021-07-12 20:37:13.238149 got conecction from 127.0.0.1 on port 38538 with message list
+[-->]On 2021-07-12 20:37:41.216366 got conecction from 127.0.0.1 on port 38538 with message metadata clienteNuevo.py
+[-->]On 2021-07-12 20:38:22.386978 got conecction from 127.0.0.1 on port 38538 with message get serverlog.txt
+[-->]On 2021-07-12 20:44:57.402351 got conecction from 127.0.0.1 on port 38598 with message LIST
+[-->]On 2021-07-12 20:45:08.317638 got conecction from 127.0.0.1 on port 38598 with message METADATA serverlog.txt
+[-->]On 2021-07-12 20:45:20.182994 got conecction from 127.0.0.1 on port 38598 with message GET serverlog.txt
+[-->]On 2021-07-12 20:45:31.576106 got conecction from 127.0.0.1 on port 38598 with message GET serverlog.txt
+[-->]On 2021-07-12 20:46:24.721176 got conecction from 127.0.0.1 on port 38598 with message get serverlog.txt
+[-->]On 2021-07-13 21:15:53.605814 got conecction from 127.0.0.1 on port 50694 with message hola
+[-->]On 2021-07-13 21:15:54.926838 got conecction from 127.0.0.1 on port 50694 with message list
+[-->]On 2021-07-13 21:16:02.946673 got conecction from 127.0.0.1 on port 50694 with message get constantes.py
+[-->]On 2021-07-13 21:16:11.418584 got conecction from 127.0.0.1 on port 50694 with message GET constantes.py
+[-->]On 2021-07-13 21:29:33.319396 got conecction from 127.0.0.1 on port 50864 with message hola
+[-->]On 2021-07-13 21:29:55.538124 got conecction from 127.0.0.1 on port 50864 with message list
+[-->]On 2021-07-13 21:30:02.676335 got conecction from 127.0.0.1 on port 50864 with message get constantes.py
+[-->]On 2021-07-13 21:32:06.900167 got conecction from 127.0.0.1 on port 50884 with message hola
+[-->]On 2021-07-13 21:34:51.127019 got conecction from 127.0.0.1 on port 50896 with message get constantes.py
+[-->]On 2021-07-13 21:38:27.365232 got conecction from 127.0.0.1 on port 50912 with message get constantes.py
+[-->]On 2021-07-13 21:42:05.150860 got conecction from 127.0.0.1 on port 50932 with message get constantes.py
+[-->]On 2021-07-13 21:43:16.391815 got conecction from 127.0.0.1 on port 50932 with message GET constantes.py
+[-->]On 2021-07-13 21:44:43.824763 got conecction from 127.0.0.1 on port 50950 with message get constantes.py
+[-->]On 2021-07-13 22:13:39.032771 got conecction from 127.0.0.1 on port 50102 with message hola
+[-->]On 2021-07-13 22:15:10.536090 got conecction from 127.0.0.1 on port 50102 with message list
+[-->]On 2021-07-13 22:15:31.879763 got conecction from 127.0.0.1 on port 50102 with message get constantes.py
+[-->]On 2021-07-13 22:16:13.307843 got conecction from 127.0.0.1 on port 50480 with message get constantes.py
+[-->]On 2021-07-13 22:16:51.199904 got conecction from 127.0.0.1 on port 53778 with message get constantes.py
+[-->]On 2021-07-13 22:21:40.736407 got conecction from 127.0.0.1 on port 53778 with message hola
+[-->]On 2021-07-13 22:22:17.651163 got conecction from 127.0.0.1 on port 53818 with message get constantes.py
+[-->]On 2021-07-13 23:34:59.899974 got conecction from 127.0.0.1 on port 36542 with message get constantes.py
+[-->]On 2021-07-13 23:58:29.600538 got conecction from 127.0.0.1 on port 36860 with message get constantes.py
+[-->]On 2021-07-14 20:21:05.828979 got conecction from 127.0.0.1 on port 38250 with message hola
+[-->]On 2021-07-14 20:21:13.223656 got conecction from 127.0.0.1 on port 38250 with message get constantes.py
+[-->]On 2021-07-14 20:26:38.051796 got conecction from 127.0.0.1 on port 38260 with message hola
+[-->]On 2021-07-14 20:26:50.508645 got conecction from 127.0.0.1 on port 38260 with message get constantes.py
+[-->]On 2021-07-14 20:30:36.919927 got conecction from 127.0.0.1 on port 38266 with message hola
+[-->]On 2021-07-14 20:30:44.280838 got conecction from 127.0.0.1 on port 38266 with message get constantes.py
+[-->]On 2021-07-14 20:40:09.936468 got conecction from 127.0.0.1 on port 38310 with message get constantes.py
+[-->]On 2021-07-14 20:42:59.148637 got conecction from 127.0.0.1 on port 34858 with message get constantes.py
+[-->]On 2021-07-14 20:46:01.329823 got conecction from 127.0.0.1 on port 55672 with message get constantes.py
+[-->]On 2021-07-14 20:50:00.402305 got conecction from 127.0.0.1 on port 35346 with message get constantes.py

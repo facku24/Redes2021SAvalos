@@ -4,5 +4,5 @@
 import socket
 
 host = socket.gethostname()
-port = 10002
+port = 10003
 listener = 3

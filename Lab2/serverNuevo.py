@@ -57,8 +57,7 @@ while inputs:
             connection_ip , connection_port = r.getpeername()
             request_decoded = recived_request.decode()
             mesage[connection_port] = request_decoded
-            if request_decoded != "":
-                record_log(connection_ip, connection_port, request_decoded)
+            record_log(connection_ip, connection_port, request_decoded)
 
             if r not in outputs:
                 outputs.append(r)

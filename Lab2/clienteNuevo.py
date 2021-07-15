@@ -1,5 +1,6 @@
 import socket 
 import constantes
+import base64
 
 class Client(object):
     def __init__(self,host,port):
@@ -31,7 +32,7 @@ while True:
     if message.split(' ')[0] == "get":
         try:
             with open (f"copy{message.split(' ')[1]}","wb") as recivedfile:
-                recivedfile.write(response.decode())
+                recivedfile.write(base64.b64decode(response))
                 response = "Success received file from server"
         
         except IOError as error:
@@ -41,4 +42,3 @@ while True:
     if response == "CONEXION CLOSED":
         client.close_connection()
         break
-

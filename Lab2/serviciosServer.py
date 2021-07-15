@@ -1,4 +1,5 @@
 from os import getcwd, scandir, listdir
+import base64
 
 def list_files ():
     """
@@ -9,16 +10,23 @@ def list_files ():
 
 def get_files (filetxt):
     try:
-        with open ("filetxt","rb") as filetosend:
-            lines = filetosend.readlines()
-            response = "".join(lines)
+        with open (filetxt,"rb") as filetosend:
+            size = 2048
+            response = bytes()
+            buffer = filetosend.read(size)
+            while buffer:
+                response += buffer
+                buffer = filetosend.read(size)
+
+            return base64.b64encode(response).decode()
 	
     except IOError as error:
         response = "File not found"
 	
     finally:
         filetosend.close()
-        return response
+
+    return response
 
 def metadata_files(filetxt):
     fileDir = list(scandir())
@@ -53,10 +61,7 @@ def serve(request: str):
     if len(request_splited) == 1 and request_splited[0].upper() in list_functions:
         response = list_functions[request_splited[0].upper()]()
     elif len(request_splited) == 2 and request_splited[0].upper() in list_functions:
-        try:
-            response = list_functions[request_splited[0].upper()](request_splited[1])
-        except:
-            response = "Error File not found..."
+        response = list_functions[request_splited[0].upper()](request_splited[1])
     else:
         response = ' '.join(request_splited).upper() 
     
