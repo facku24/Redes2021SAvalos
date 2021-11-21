@@ -19,8 +19,14 @@ while (True):
 
 	if calculo_checksum(package) == 0:
 		new_data = package.datos.upper()
+	else:
+		new_data = ""
 
-	expected_sec = (package.secuencia + 1) % 2 if calculo_checksum(package) == 0 else package.secuencia
+	if calculo_checksum(package) == 0:
+		expected_sec = (package.secuencia + 1) % 2
+	else:
+		expected_sec = package.secuencia
+
 	ACK_message = Paquete(RECEPTOR_PORT, EMISOR_PORT, new_data, expected_sec)
 	message_to_send = dumps((send_to, ACK_message))
 	receiver.sendto(message_to_send, (NETWORK_IP, NETWORK_PORT))

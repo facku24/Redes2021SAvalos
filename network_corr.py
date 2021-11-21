@@ -32,13 +32,14 @@ def corruptNet(sock, sender, receiver, pckt):
 		prob = int(random()*10)
 		if prob < 2:
 			# Paquete Corrupto
-			print ("Paquete Corrupto")
 			pckt = corrupt_packet(pckt)
+			send_pckt(sock, sender, receiver, pckt)
+			print ("Paquete Corrupto")
 
 		elif 2 <= prob and prob < 3:
 			# Paquete duplicado
-			print ("Paquete Duplicado")
 			send_pckt(sock, sender, receiver, pckt)
+			print ("Paquete Duplicado")
 
 		elif 3 <= prob and prob < 4:
 			# Paquete Perdido
@@ -58,7 +59,7 @@ if __name__ == "__main__":
 	signal.signal(signal.SIGINT, partial(shut_down, sock))
 	# Imprimimos mensaje
 	print('Red Habilitada')
-    
+
 	while True:
 		sender, receiver, pckt = recv_pckt(sock)
 		corruptNet(sock, sender, receiver, pckt)
